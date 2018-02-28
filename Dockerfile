@@ -7,5 +7,5 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN gem install pronto pronto-rubocop
+RUN gem install pronto
 
